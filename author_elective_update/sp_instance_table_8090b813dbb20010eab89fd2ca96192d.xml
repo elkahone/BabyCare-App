@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>notatka</display_field>
+        <field_list>data,waga,wzrost,wiek,notatka</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by>data</order_by>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">596f28dfdb720010eab89fd2ca961930</sp_column>
+        <sp_page/>
+        <sp_widget display_value="My Team">62d700b79f210200f0a91471367fcfe8</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 09:43:33</sys_created_on>
+        <sys_id>8090b813dbb20010eab89fd2ca96192d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_update_name>sp_instance_table_8090b813dbb20010eab89fd2ca96192d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 09:45:08</sys_updated_on>
+        <table>x_417839_myapp_mytable</table>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=8090b813dbb20010eab89fd2ca96192d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyApp">65135853db320010eab89fd2ca961923</application>
+        <file_path/>
+        <instance_id>66c8f6e4dbb7938c536ad5b0cf96197e</instance_id>
+        <instance_name>dev68993</instance_name>
+        <name>sp_instance_table_8090b813dbb20010eab89fd2ca96192d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field>notatka</display_field><field_list>data,waga,wzrost,wiek,notatka</field_list><filter/><glyph/><id/><maximum_entries>5</maximum_entries><order>1</order><order_by>data</order_by><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="2">596f28dfdb720010eab89fd2ca961930</sp_column><sp_page/><sp_widget display_value="My Team">62d700b79f210200f0a91471367fcfe8</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-11 09:43:33</sys_created_on><sys_id>8090b813dbb20010eab89fd2ca96192d</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package><sys_policy/><sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope><sys_update_name>sp_instance_table_8090b813dbb20010eab89fd2ca96192d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-11 09:45:08</sys_updated_on><table>x_417839_myapp_mytable</table><title/><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=8090b813dbb20010eab89fd2ca96192d"/></record_update>]]></payload>
+        <payload_hash>1864894157</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a9135853db320010eab89fd2ca961925</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 09:45:08</sys_created_on>
+        <sys_id>5be0b053dbb20010eab89fd2ca961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17033a35b800000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 09:45:08</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>d3e0b0539eb200107318bb9e158d6b39</update_guid>
+        <update_guid_history>d3e0b0539eb200107318bb9e158d6b39:1864894157,9dc0b05371b20010fcaf35c256a15f03:-727996746,8890bc137db20010a0c5ada2cebedff1:-2002762276</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">55f03453dbb20010eab89fd2ca9619fa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 09:45:16</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>22dd88828b0e4318ac9332f57b72c840</sys_id>
+        <sys_metadata>8090b813dbb20010eab89fd2ca96192d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_scope_delete display_value="">70f465d559934da4b6ea5eef65ede204</sys_scope_delete>
+        <sys_update_name>sp_instance_table_8090b813dbb20010eab89fd2ca96192d</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_8090b813dbb20010eab89fd2ca96192d">5be0b053dbb20010eab89fd2ca961939</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 09:45:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

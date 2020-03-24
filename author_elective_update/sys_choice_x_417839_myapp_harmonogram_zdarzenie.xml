@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="zdarzenie" table="x_417839_myapp_harmonogram" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>zdarzenie</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kupa i Siku</label>
+            <language>en</language>
+            <name>x_417839_myapp_harmonogram</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-23 13:44:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d4da574fdb830010eab89fd2ca9619f3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-23 13:46:59</sys_updated_on>
+            <value>kupa i siku</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>zdarzenie</element>
+            <name>x_417839_myapp_harmonogram</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-23 13:44:00</sys_created_on>
+            <sys_id>8faa9fcbdb830010eab89fd2ca961928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>zdarzenie</sys_name>
+            <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+            <sys_update_name>sys_choice_x_417839_myapp_harmonogram_zdarzenie</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-23 13:44:00</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyApp">65135853db320010eab89fd2ca961923</application>
+        <file_path/>
+        <instance_id>66c8f6e4dbb7938c536ad5b0cf96197e</instance_id>
+        <instance_name>dev68993</instance_name>
+        <name>sys_choice_x_417839_myapp_harmonogram_zdarzenie</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="zdarzenie" table="x_417839_myapp_harmonogram" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>zdarzenie</element><hint/><inactive>false</inactive><label>Kupa i Siku</label><language>en</language><name>x_417839_myapp_harmonogram</name><sequence>3</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-23 13:44:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d4da574fdb830010eab89fd2ca9619f3</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-23 13:46:59</sys_updated_on><value>kupa i siku</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>zdarzenie</element><name>x_417839_myapp_harmonogram</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-23 13:44:00</sys_created_on><sys_id>8faa9fcbdb830010eab89fd2ca961928</sys_id><sys_mod_count>0</sys_mod_count><sys_name>zdarzenie</sys_name><sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package><sys_policy/><sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope><sys_update_name>sys_choice_x_417839_myapp_harmonogram_zdarzenie</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-23 13:44:00</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-1971703469</payload_hash>
+        <record_name>Harmonogram.Zdarzenie</record_name>
+        <reverted_from/>
+        <source>a9135853db320010eab89fd2ca961925</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-25 10:53:54</sys_created_on>
+        <sys_id>cfe64dbfdb430010eab89fd2ca9619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1707bfb56c20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-25 10:53:54</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>4be64dbfea430010acad90226659a6c0</update_guid>
+        <update_guid_history>4be64dbfea430010acad90226659a6c0:-1971703469,83e64dbf02430010540ec3b6fc8224be:-284765712,cbe64dbf784300109b7af88ddeb33abb:-256744884,07e64dbf52430010ec552d6072d4a1b9:1841993366,4fe64dbffc43001000048c1e865b61b6:1090756971,cfe64dbf1d430010f1679a909336e6a7:1280054444,3ae64dbf774300101db91a800c4d5da5:1896545189,72e64dbfdf430010d021d4854c65b6a3:-105715264,7ae64dbf3c4300100a0734733284e2a0:-1946266430,76882c632b474010d7a2d7432fe6c5f3:1000802070,6c88e0e3e74740108c37f85049daef44:1666778714,0cf4a8ebb8074010c76e6b36c089f8e5:1283184313,67e428efb80740105a064d332a598f34:-1806521143,7ee46cafdd0740106a5c0e122aa46cd6:-1978281802,1de4a4ef5d07401038cc02721d248015:-2039830505,d7d4e4ef4e074010be879647d077158b:-1461318818,d7b4a4ef7d0740102432adcc98a8c020:-689778015,78b4a4ef79074010690bc5691b008e11:-1349617480,41a4e06bbb0740101bd286402285895e:-456487941,3574acaffc0740106e5af144f1dc8572:-98930972,0564e4af5d07401027c3b0621e19e3f3:-1575756189,036b538f89830010a8d05c1341cbeb2b:307271174,526b5f4f35830010496f785073ff6f95:1120322349,e16b138f828300109ba580acc248d9e2:-1585578597,cd6b9b4f3b8300104d28c17d6cbfd0fc:-370925336,775b138f538300108b8a97ec7b1dd557:358533854,c35b1f4fd5830010b25f72a3052c5fe8:-2055287463,b95b1f4f6b8300105228fb16edb238d3:-1028699526,495b9f4fa9830010ae6d24f48e928650:1676347607,694b5f4f47830010eedcda01428c038e:762796559,552b1f4ff4830010af454ac4348027cb:-1771521043,751b938bd4830010d9e664bd99033af8:-1373834298,63fa5b0f5f830010fc411f02c3cc0e7e:-1604683489,14da574f1a830010c5f537a6c54381f5:751657221,9cca938b23830010ad9f35a596a59af4:-858974457,4baa9fcbd8830010c8cb5717df91d22a:-1953870047</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-25 10:53:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>8faa9fcbdb830010eab89fd2ca961928</sys_id>
+        <sys_metadata>8faa9fcbdb830010eab89fd2ca961928</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>zdarzenie</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_scope_delete display_value="">70f465d559934da4b6ea5eef65ede204</sys_scope_delete>
+        <sys_update_name>sys_choice_x_417839_myapp_harmonogram_zdarzenie</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_417839_myapp_harmonogram_zdarzenie">cfe64dbfdb430010eab89fd2ca9619c0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-25 10:53:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

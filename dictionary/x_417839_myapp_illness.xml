@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Choroby" max_length="40" name="x_417839_myapp_illness" type="collection">
+        <element label="Koniec" max_length="40" name="koniec" type="glide_date"/>
+        <element label="Lekarstwa\Dawkowanie" max_length="4000" name="lekarstwa_dawkowanie" type="string"/>
+        <element label="Nazwa choroby" max_length="40" name="nazwa_choroby" type="string"/>
+        <element label="Początek" max_length="40" name="od" type="glide_date"/>
+        <element label="Opis\Przebieg" max_length="4000" name="opis_przebieg" type="string"/>
+    </element>
+</database>

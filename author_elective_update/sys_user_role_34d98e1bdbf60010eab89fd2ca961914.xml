@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_417839_myapp.myjournal_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>myjournal_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 16:13:32</sys_created_on>
+        <sys_id>34d98e1bdbf60010eab89fd2ca961914</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_417839_myapp.myjournal_user</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_update_name>sys_user_role_34d98e1bdbf60010eab89fd2ca961914</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 16:13:32</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyApp">65135853db320010eab89fd2ca961923</application>
+        <file_path/>
+        <instance_id>66c8f6e4dbb7938c536ad5b0cf96197e</instance_id>
+        <instance_name>dev68993</instance_name>
+        <name>sys_user_role_34d98e1bdbf60010eab89fd2ca961914</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_417839_myapp.myjournal_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>myjournal_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-11 16:13:32</sys_created_on><sys_id>34d98e1bdbf60010eab89fd2ca961914</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_417839_myapp.myjournal_user</sys_name><sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package><sys_policy/><sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope><sys_update_name>sys_user_role_34d98e1bdbf60010eab89fd2ca961914</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-11 16:13:32</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>382694056</payload_hash>
+        <record_name>x_417839_myapp.myjournal_user</record_name>
+        <reverted_from/>
+        <source>a9135853db320010eab89fd2ca961925</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 16:13:32</sys_created_on>
+        <sys_id>f4d9ca5bdbf60010eab89fd2ca96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1703506f12f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 16:13:32</sys_updated_on>
+        <type>Role</type>
+        <update_guid>30d9ca5bfbf60010efb8a454da44698e</update_guid>
+        <update_guid_history>30d9ca5bfbf60010efb8a454da44698e:382694056</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_417839_myapp.myjournal_user">0867480cdb470010eab89fd2ca961929</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 14:39:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>05b8643a876f419380c37f3e982c5ca9</sys_id>
+        <sys_metadata>34d98e1bdbf60010eab89fd2ca961914</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_417839_myapp.myjournal_user</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_scope_delete display_value="">70f465d559934da4b6ea5eef65ede204</sys_scope_delete>
+        <sys_update_name>sys_user_role_34d98e1bdbf60010eab89fd2ca961914</sys_update_name>
+        <sys_update_version display_value="sys_user_role_34d98e1bdbf60010eab89fd2ca961914">f4d9ca5bdbf60010eab89fd2ca96198e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 14:39:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

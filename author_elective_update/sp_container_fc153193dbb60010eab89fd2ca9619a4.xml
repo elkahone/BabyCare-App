@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Statistics - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="statistics">3e05bd53dbb60010eab89fd2ca96197f</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 14:42:53</sys_created_on>
+        <sys_id>fc153193dbb60010eab89fd2ca9619a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Statistics - Container 2</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_update_name>sp_container_fc153193dbb60010eab89fd2ca9619a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 14:42:53</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyApp">65135853db320010eab89fd2ca961923</application>
+        <file_path/>
+        <instance_id>66c8f6e4dbb7938c536ad5b0cf96197e</instance_id>
+        <instance_name>dev68993</instance_name>
+        <name>sp_container_fc153193dbb60010eab89fd2ca9619a4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Statistics - Container 2</name><order>2</order><sp_page display_value="statistics">3e05bd53dbb60010eab89fd2ca96197f</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-11 14:42:53</sys_created_on><sys_id>fc153193dbb60010eab89fd2ca9619a4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Statistics - Container 2</sys_name><sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package><sys_policy/><sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope><sys_update_name>sp_container_fc153193dbb60010eab89fd2ca9619a4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-11 14:42:53</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>431395664</payload_hash>
+        <record_name>Statistics - Container 2</record_name>
+        <reverted_from/>
+        <source>a9135853db320010eab89fd2ca961925</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 14:42:53</sys_created_on>
+        <sys_id>38153193dbb60010eab89fd2ca9619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17034b3f4230000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 14:42:53</sys_updated_on>
+        <type>Container</type>
+        <update_guid>70153193dfb600102f6e1dbc05ff16a6</update_guid>
+        <update_guid_history>70153193dfb600102f6e1dbc05ff16a6:431395664</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Statistics - Container 2">3915b993dbb60010eab89fd2ca961968</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 14:42:57</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>50a94d92c7af4c18bfe30452e6e54664</sys_id>
+        <sys_metadata>fc153193dbb60010eab89fd2ca9619a4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Statistics - Container 2</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_scope_delete display_value="">70f465d559934da4b6ea5eef65ede204</sys_scope_delete>
+        <sys_update_name>sp_container_fc153193dbb60010eab89fd2ca9619a4</sys_update_name>
+        <sys_update_version display_value="sp_container_fc153193dbb60010eab89fd2ca9619a4">38153193dbb60010eab89fd2ca9619a6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 14:42:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

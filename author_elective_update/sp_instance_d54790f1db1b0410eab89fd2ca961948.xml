@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">6a845831db1b0410eab89fd2ca9619c8</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-02 12:33:33</sys_created_on>
+        <sys_id>d54790f1db1b0410eab89fd2ca961948</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Harmonogram zdarzeń</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_update_name>sp_instance_d54790f1db1b0410eab89fd2ca961948</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-02 12:43:37</sys_updated_on>
+        <title>Harmonogram zdarzeń</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<pre class=\"ng-scope\">&lt;iframe style=\"overflow: hidden; height: 1000px; width: 100%;\" src=\"/$pa_dashboard.do?sysparm_dashboard=770750b1db1b0410eab89fd2ca9619e2\" width=\"100%\" height=\"100%\" frameborder=\"0\"&gt;&lt;/iframe&gt;</pre>",
+		"displayValue": "<pre class=\"ng-scope\">&lt;iframe style=\"overflow: hidden; height: 1000px; width: 100%;\" src=\"/$pa_dashboard.do?sysparm_dashboard=770750b1db1b0410eab89fd2ca9619e2\" width=\"100%\" height=\"100%\" frameborder=\"0\"&gt;&lt;/iframe&gt;</pre>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=d54790f1db1b0410eab89fd2ca961948"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyApp">65135853db320010eab89fd2ca961923</application>
+        <file_path/>
+        <instance_id>66c8f6e4dbb7938c536ad5b0cf96197e</instance_id>
+        <instance_name>dev68993</instance_name>
+        <name>sp_instance_d54790f1db1b0410eab89fd2ca961948</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;6a845831db1b0410eab89fd2ca9619c8&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-03-02 12:33:33&lt;/sys_created_on&gt;&lt;sys_id&gt;d54790f1db1b0410eab89fd2ca961948&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Harmonogram zdarzeń&lt;/sys_name&gt;&lt;sys_package display_value="MyApp" source="x_417839_myapp"&gt;65135853db320010eab89fd2ca961923&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyApp"&gt;65135853db320010eab89fd2ca961923&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_d54790f1db1b0410eab89fd2ca961948&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-03-02 12:43:37&lt;/sys_updated_on&gt;&lt;title&gt;Harmonogram zdarzeń&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;pre class=\"ng-scope\"&gt;&amp;lt;iframe style=\"overflow: hidden; height: 1000px; width: 100%;\" src=\"/$pa_dashboard.do?sysparm_dashboard=770750b1db1b0410eab89fd2ca9619e2\" width=\"100%\" height=\"100%\" frameborder=\"0\"&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/pre&gt;",
+		"displayValue": "&lt;pre class=\"ng-scope\"&gt;&amp;lt;iframe style=\"overflow: hidden; height: 1000px; width: 100%;\" src=\"/$pa_dashboard.do?sysparm_dashboard=770750b1db1b0410eab89fd2ca9619e2\" width=\"100%\" height=\"100%\" frameborder=\"0\"&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/pre&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d54790f1db1b0410eab89fd2ca961948"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>881878206</payload_hash>
+        <record_name>Harmonogram zdarzeń</record_name>
+        <reverted_from/>
+        <source>a9135853db320010eab89fd2ca961925</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-02 12:43:37</sys_created_on>
+        <sys_id>7c995075db1b0410eab89fd2ca9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1709b45f2ed0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-02 12:43:37</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>f4995075951b0410d881ed235c0ba3e2</update_guid>
+        <update_guid_history>f4995075951b0410d881ed235c0ba3e2:881878206,fc695075cc1b0410f89b36d9312ce82d:-15794580,ad29d035da1b0410959fef853e2c3ca4:469978872,41f89835971b041097542524ec6bf0d1:1600894926,c76854f1791b04106635ee85ab50b7cc:-1628934100,8258d8f1871b04104c68a48a3a1db9e8:-1546938014,40879cb11a1b04100811365bc07f000b:-64086152,296790f1d51b0410fd1bf61073badd4d:1753638872,994790f14c1b04100ce5abadeabdcc49:1518562611</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Harmonogram zdarzeń">f9b12879db1b0410eab89fd2ca961939</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-02 13:19:11</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>28746cdc3715498e9704ac8fbc24f879</sys_id>
+        <sys_metadata>d54790f1db1b0410eab89fd2ca961948</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Harmonogram zdarzeń</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_scope_delete display_value="">70f465d559934da4b6ea5eef65ede204</sys_scope_delete>
+        <sys_update_name>sp_instance_d54790f1db1b0410eab89fd2ca961948</sys_update_name>
+        <sys_update_version display_value="sp_instance_d54790f1db1b0410eab89fd2ca961948">7c995075db1b0410eab89fd2ca9619e2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-02 13:19:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

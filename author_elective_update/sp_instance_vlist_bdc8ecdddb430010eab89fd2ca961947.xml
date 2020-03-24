@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>rodzaj_szczepionki</display_field>
+        <field_list/>
+        <filter table="x_417839_myapp_szczepienia">data_i_godzina_szczepieniaISEMPTY<item endquery="false" field="data_i_godzina_szczepienia" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">53786cdddb430010eab89fd2ca961901</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Unordered List">489a4b1bcb13020000f8d856634c9c67</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 14:17:23</sys_created_on>
+        <sys_id>bdc8ecdddb430010eab89fd2ca961947</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Nadchodzące szczepienia</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_update_name>sp_instance_vlist_bdc8ecdddb430010eab89fd2ca961947</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 14:18:59</sys_updated_on>
+        <table>x_417839_myapp_szczepienia</table>
+        <title>Nadchodzące szczepienia</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=bdc8ecdddb430010eab89fd2ca961947"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyApp">65135853db320010eab89fd2ca961923</application>
+        <file_path/>
+        <instance_id>66c8f6e4dbb7938c536ad5b0cf96197e</instance_id>
+        <instance_name>dev68993</instance_name>
+        <name>sp_instance_vlist_bdc8ecdddb430010eab89fd2ca961947</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist"><sp_instance_vlist action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field>rodzaj_szczepionki</display_field><field_list/><filter table="x_417839_myapp_szczepienia">data_i_godzina_szczepieniaISEMPTY<item endquery="false" field="data_i_godzina_szczepienia" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/></filter><glyph/><id/><maximum_entries>5</maximum_entries><order>1</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="3">53786cdddb430010eab89fd2ca961901</sp_column><sp_page/><sp_widget display_value="Unordered List">489a4b1bcb13020000f8d856634c9c67</sp_widget><sys_class_name>sp_instance_vlist</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-17 14:17:23</sys_created_on><sys_id>bdc8ecdddb430010eab89fd2ca961947</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Nadchodzące szczepienia</sys_name><sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package><sys_policy/><sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope><sys_update_name>sp_instance_vlist_bdc8ecdddb430010eab89fd2ca961947</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-17 14:18:59</sys_updated_on><table>x_417839_myapp_szczepienia</table><title>Nadchodzące szczepienia</title><url/><widget_parameters/></sp_instance_vlist><sys_translated_text action="delete_multiple" query="documentkey=bdc8ecdddb430010eab89fd2ca961947"/></record_update>]]></payload>
+        <payload_hash>-322001357</payload_hash>
+        <record_name>Nadchodzące szczepienia</record_name>
+        <reverted_from/>
+        <source>a9135853db320010eab89fd2ca961925</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 14:18:59</sys_created_on>
+        <sys_id>c529e411db830010eab89fd2ca961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170538439830000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 14:18:59</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>8d29e8dd7743001055a386661e4cd968</update_guid>
+        <update_guid_history>8d29e8dd7743001055a386661e4cd968:-322001357,35c8ecdd76430010928e397ec028c549:963245171</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Nadchodzące szczepienia">ca79e811db830010eab89fd2ca9619e2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 14:20:25</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>beddebd26f174e109936588d064aff84</sys_id>
+        <sys_metadata>bdc8ecdddb430010eab89fd2ca961947</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nadchodzące szczepienia</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_scope_delete display_value="">70f465d559934da4b6ea5eef65ede204</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_bdc8ecdddb430010eab89fd2ca961947</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_bdc8ecdddb430010eab89fd2ca961947">c529e411db830010eab89fd2ca961950</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 14:20:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

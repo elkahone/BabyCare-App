@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="calendar_elements=zdarzenie;ml" label="Harmonogram" max_length="40" name="x_417839_myapp_harmonogram" type="collection">
+        <element choice="1" label="Ml" max_length="40" name="ml" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="10ml" sequence="0" value="10"/>
+                <element inactive_on_update="false" label="20ml" sequence="1" value="20"/>
+                <element inactive_on_update="false" label="30ml" sequence="2" value="30"/>
+                <element inactive_on_update="false" label="40ml" sequence="3" value="40"/>
+                <element inactive_on_update="false" label="50ml" sequence="4" value="50"/>
+                <element inactive_on_update="false" label="60ml" sequence="5" value="60"/>
+                <element inactive_on_update="false" label="70ml" sequence="6" value="70"/>
+                <element inactive_on_update="false" label="80ml" sequence="7" value="80"/>
+                <element inactive_on_update="false" label="90ml" sequence="8" value="90"/>
+                <element inactive_on_update="false" label="100ml" sequence="9" value="100"/>
+            </choice>
+        </element>
+        <element choice="1" label="Zdarzenie" max_length="40" name="zdarzenie" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Butelka: mleko modyfikowane" value="butelka modyfikowane"/>
+                <element inactive_on_update="false" label="Butelka: mleko z laktatora" value="butelka laktator"/>
+                <element inactive_on_update="false" label="Kąpiel" value="kapiel"/>
+                <element inactive_on_update="false" label="Karmienie Dwie Piersi" value="karmienie 2p"/>
+                <element inactive_on_update="false" label="Karmienie Lewa Pierś" value="karmienie lp"/>
+                <element inactive_on_update="false" label="Karmienie Prawa Pierś" value="karmienie pp"/>
+                <element inactive_on_update="false" label="Kupa" value="kupa"/>
+                <element inactive_on_update="false" label="Laktaor" value="laktator"/>
+                <element inactive_on_update="false" label="Siku" value="siku"/>
+                <element inactive_on_update="false" label="Siku i Kupa" value="siku i kupa"/>
+            </choice>
+        </element>
+    </element>
+</database>

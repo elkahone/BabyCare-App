@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>inoculations</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 12:10:20</sys_created_on>
+        <sys_id>a4bb4cd1db030010eab89fd2ca9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>inoculations</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_update_name>sp_page_a4bb4cd1db030010eab89fd2ca9619f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 12:10:20</sys_updated_on>
+        <title>inoculations</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=a4bb4cd1db030010eab89fd2ca9619f5"/>
+</record_update>

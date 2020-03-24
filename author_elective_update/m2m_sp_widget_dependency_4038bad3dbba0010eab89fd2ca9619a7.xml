@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="DELETE">
+        <sp_dependency display_value="sp_codemirror_includes">016f19255b301200e39fc7ad31f91abd</sp_dependency>
+        <sp_widget display_value="Copy of SC Catalog Item">043876dfdb7a0010eab89fd2ca9619e1</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 19:36:06</sys_created_on>
+        <sys_id>4038bad3dbba0010eab89fd2ca9619a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sp_codemirror_includes.Copy of SC Catalog Item</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_4038bad3dbba0010eab89fd2ca9619a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 19:36:06</sys_updated_on>
+    </m2m_sp_widget_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyApp">65135853db320010eab89fd2ca961923</application>
+        <file_path/>
+        <instance_id>66c8f6e4dbb7938c536ad5b0cf96197e</instance_id>
+        <instance_name>dev68993</instance_name>
+        <name>m2m_sp_widget_dependency_4038bad3dbba0010eab89fd2ca9619a7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="sp_codemirror_includes">016f19255b301200e39fc7ad31f91abd</sp_dependency><sp_widget display_value="Copy of SC Catalog Item">043876dfdb7a0010eab89fd2ca9619e1</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-11 19:36:06</sys_created_on><sys_id>4038bad3dbba0010eab89fd2ca9619a7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sp_codemirror_includes.Copy of SC Catalog Item</sys_name><sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package><sys_policy/><sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope><sys_update_name>m2m_sp_widget_dependency_4038bad3dbba0010eab89fd2ca9619a7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-11 19:36:06</sys_updated_on></m2m_sp_widget_dependency></record_update>]]></payload>
+        <payload_hash>2101300408</payload_hash>
+        <record_name>sp_codemirror_includes.Copy of SC Catalog Item</record_name>
+        <reverted_from/>
+        <source>a9135853db320010eab89fd2ca961925</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 19:36:06</sys_created_on>
+        <sys_id>8c38bad3dbba0010eab89fd2ca9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17035c066b20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 19:36:06</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>c438bad31fba0010582db2617bff12a8</update_guid>
+        <update_guid_history>c438bad31fba0010582db2617bff12a8:2101300408</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sp_codemirror_includes.Copy of SC Catalog Item">87ed325bdbba0010eab89fd2ca96195d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 20:01:09</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_widget_dependency">m2m_sp_widget_dependency</sys_db_object>
+        <sys_id>00235b45bf6a41eca4b6e31742929764</sys_id>
+        <sys_metadata>4038bad3dbba0010eab89fd2ca9619a7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sp_codemirror_includes.Copy of SC Catalog Item</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_scope_delete display_value="">70f465d559934da4b6ea5eef65ede204</sys_scope_delete>
+        <sys_update_name>m2m_sp_widget_dependency_4038bad3dbba0010eab89fd2ca9619a7</sys_update_name>
+        <sys_update_version display_value="m2m_sp_widget_dependency_4038bad3dbba0010eab89fd2ca9619a7">8c38bad3dbba0010eab89fd2ca9619a8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 20:01:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

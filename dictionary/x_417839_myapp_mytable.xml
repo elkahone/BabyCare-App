@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="MyTable" max_length="40" name="x_417839_myapp_mytable" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:new GlideDateTime().getDisplayValue()" label="Dzień" max_length="40" name="data" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Waga (kg)" max_length="40" name="waga" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:getAge()" label="Wiek" max_length="40" name="wiek" type="string"/>
+        <element label="Wzrost (cm)" max_length="40" name="wzrost" type="integer"/>
+    </element>
+</database>

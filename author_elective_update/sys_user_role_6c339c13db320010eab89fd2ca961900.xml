@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_417839_myapp.familly</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>x_417839_myapp.familly</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 07:35:15</sys_created_on>
+        <sys_id>6c339c13db320010eab89fd2ca961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_417839_myapp.familly</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_update_name>sys_user_role_6c339c13db320010eab89fd2ca961900</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 07:35:15</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyApp">65135853db320010eab89fd2ca961923</application>
+        <file_path/>
+        <instance_id>66c8f6e4dbb7938c536ad5b0cf96197e</instance_id>
+        <instance_name>dev68993</instance_name>
+        <name>sys_user_role_6c339c13db320010eab89fd2ca961900</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_417839_myapp.familly</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>x_417839_myapp.familly</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-11 07:35:15</sys_created_on><sys_id>6c339c13db320010eab89fd2ca961900</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_417839_myapp.familly</sys_name><sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package><sys_policy/><sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope><sys_update_name>sys_user_role_6c339c13db320010eab89fd2ca961900</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-11 07:35:15</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>1758692792</payload_hash>
+        <record_name>x_417839_myapp.familly</record_name>
+        <reverted_from/>
+        <source>a9135853db320010eab89fd2ca961925</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 07:35:15</sys_created_on>
+        <sys_id>74339c13db320010eab89fd2ca961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170332c713d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 07:35:15</sys_updated_on>
+        <type>Role</type>
+        <update_guid>bc339c13ef32001061f0686457845805</update_guid>
+        <update_guid_history>bc339c13ef32001061f0686457845805:1758692792</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_417839_myapp.familly">068f702bdb874010eab89fd2ca96194b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 15:43:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>32aa9a0db08041d6b4c7f359506d7a84</sys_id>
+        <sys_metadata>6c339c13db320010eab89fd2ca961900</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_417839_myapp.familly</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_scope_delete display_value="">70f465d559934da4b6ea5eef65ede204</sys_scope_delete>
+        <sys_update_name>sys_user_role_6c339c13db320010eab89fd2ca961900</sys_update_name>
+        <sys_update_version display_value="sys_user_role_6c339c13db320010eab89fd2ca961900">74339c13db320010eab89fd2ca961906</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 15:43:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="MyJournal" max_length="40" name="x_417839_myapp_myjournal" type="collection">
+        <element default="javascript:new GlideDateTime().getDisplayValue()" label="Data" max_length="40" name="data" type="glide_date_time"/>
+        <element label="Notatka" max_length="4000" name="notatka" type="string"/>
+    </element>
+</database>

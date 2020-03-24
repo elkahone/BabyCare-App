@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>data</display_field>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>2</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">596f28dfdb720010eab89fd2ca961930</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Unordered List">489a4b1bcb13020000f8d856634c9c67</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 09:40:26</sys_created_on>
+        <sys_id>1edf6cdfdb720010eab89fd2ca96197a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Ostatnie wpisy</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_update_name>sp_instance_vlist_1edf6cdfdb720010eab89fd2ca96197a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 11:28:10</sys_updated_on>
+        <table>x_417839_myapp_mytable</table>
+        <title>Ostatnie wpisy</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=1edf6cdfdb720010eab89fd2ca96197a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyApp">65135853db320010eab89fd2ca961923</application>
+        <file_path/>
+        <instance_id>66c8f6e4dbb7938c536ad5b0cf96197e</instance_id>
+        <instance_name>dev68993</instance_name>
+        <name>sp_instance_vlist_1edf6cdfdb720010eab89fd2ca96197a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist"><sp_instance_vlist action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field>data</display_field><field_list/><filter/><glyph/><id/><maximum_entries>5</maximum_entries><order>2</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="2">596f28dfdb720010eab89fd2ca961930</sp_column><sp_page/><sp_widget display_value="Unordered List">489a4b1bcb13020000f8d856634c9c67</sp_widget><sys_class_name>sp_instance_vlist</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-11 09:40:26</sys_created_on><sys_id>1edf6cdfdb720010eab89fd2ca96197a</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Ostatnie wpisy</sys_name><sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package><sys_policy/><sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope><sys_update_name>sp_instance_vlist_1edf6cdfdb720010eab89fd2ca96197a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-11 11:28:10</sys_updated_on><table>x_417839_myapp_mytable</table><title>Ostatnie wpisy</title><url/><widget_parameters/></sp_instance_vlist><sys_translated_text action="delete_multiple" query="documentkey=1edf6cdfdb720010eab89fd2ca96197a"/></record_update>]]></payload>
+        <payload_hash>2001802437</payload_hash>
+        <record_name>Ostatnie wpisy</record_name>
+        <reverted_from/>
+        <source>a9135853db320010eab89fd2ca961925</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 11:28:10</sys_created_on>
+        <sys_id>6c880dd7dbf20010eab89fd2ca9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1703401af9f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 11:28:10</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>e4880dd7d4f200106a23bec936ff00f1</update_guid>
+        <update_guid_history>e4880dd7d4f200106a23bec936ff00f1:2001802437,55f0745330b20010081ec46b7dc06302:-771771324,5490bc13acb20010f7142d080bcd65f6:2001802437,a0707c1381b20010fbfed271205f5812:-771771324,1040b813f8b20010137951720c389223:2001802437,dbff68df8c720010924930996e37fd05:-771771324,52df6cdfc5720010a682a3a52c641e7c:1491485484</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Ostatnie wpisy">3ced015fdbf20010eab89fd2ca9619fa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 11:51:40</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>0c36ed46bcec4f3880d791ca30091524</sys_id>
+        <sys_metadata>1edf6cdfdb720010eab89fd2ca96197a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ostatnie wpisy</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_scope_delete display_value="">70f465d559934da4b6ea5eef65ede204</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_1edf6cdfdb720010eab89fd2ca96197a</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_1edf6cdfdb720010eab89fd2ca96197a">6c880dd7dbf20010eab89fd2ca9619f1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 11:51:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

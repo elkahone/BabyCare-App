@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>success</color>
+        <css/>
+        <glyph>heart</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item display_value="Co nowego?">34e7501bdb320010eab89fd2ca961998</sc_cat_item>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">0a5a6c9bdb720010eab89fd2ca961900</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 09:16:34</sys_created_on>
+        <sys_id>706ae49bdb720010eab89fd2ca961946</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Co nowego?</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_update_name>sp_instance_link_706ae49bdb720010eab89fd2ca961946</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 09:33:26</sys_updated_on>
+        <title>Co nowego?</title>
+        <type>sc_cat_item</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=706ae49bdb720010eab89fd2ca961946"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyApp">65135853db320010eab89fd2ca961923</application>
+        <file_path/>
+        <instance_id>66c8f6e4dbb7938c536ad5b0cf96197e</instance_id>
+        <instance_name>dev68993</instance_name>
+        <name>sp_instance_link_706ae49bdb720010eab89fd2ca961946</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;success&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;heart&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item display_value="Co nowego?"&gt;34e7501bdb320010eab89fd2ca961998&lt;/sc_cat_item&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;0a5a6c9bdb720010eab89fd2ca961900&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-02-11 09:16:34&lt;/sys_created_on&gt;&lt;sys_id&gt;706ae49bdb720010eab89fd2ca961946&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Co nowego?&lt;/sys_name&gt;&lt;sys_package display_value="MyApp" source="x_417839_myapp"&gt;65135853db320010eab89fd2ca961923&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyApp"&gt;65135853db320010eab89fd2ca961923&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_706ae49bdb720010eab89fd2ca961946&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-02-11 09:33:26&lt;/sys_updated_on&gt;&lt;title&gt;Co nowego?&lt;/title&gt;&lt;type&gt;sc_cat_item&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=706ae49bdb720010eab89fd2ca961946"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-50634227</payload_hash>
+        <record_name>Co nowego?</record_name>
+        <reverted_from/>
+        <source>a9135853db320010eab89fd2ca961925</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 09:33:26</sys_created_on>
+        <sys_id>f73ea89fdb720010eab89fd2ca9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1703398a3ba0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 09:33:26</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>733ea89ff5720010594c5ee4e9e333f9</update_guid>
+        <update_guid_history>733ea89ff5720010594c5ee4e9e333f9:-50634227,b73ea89fe2720010516eeb5fea4dc0f5:-78469530,513ea85f347200109bccbb18efd04da9:-50634227,953ea85f8072001092e76d021c0314a5:-78469530,884b249b4d720010a00df54146e042f3:-50634227,591be4db1872001028186b21c263847f:601221641,0f0ba4db71720010bf02fc7077d18ddc:320993419,f46ae49b2a720010883a5ee8be88ff47:2117627838</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Co nowego?">b04ee89fdb720010eab89fd2ca961955</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 09:33:30</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>194bc167525f48188a529e0ae6791a90</sys_id>
+        <sys_metadata>706ae49bdb720010eab89fd2ca961946</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Co nowego?</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_scope_delete display_value="">70f465d559934da4b6ea5eef65ede204</sys_scope_delete>
+        <sys_update_name>sp_instance_link_706ae49bdb720010eab89fd2ca961946</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_706ae49bdb720010eab89fd2ca961946">f73ea89fdb720010eab89fd2ca9619f9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 09:33:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

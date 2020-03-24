@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>line-chart</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>2</order>
+        <roles/>
+        <sc_cat_item display_value="Skoki rozwojowe">34e7501bdb320010eab89fd2ca961998</sc_cat_item>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">ae7c6c1fdb720010eab89fd2ca961992</sp_column>
+        <sp_page display_value="new_record">dc20bedbdb7a0010eab89fd2ca96192a</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 09:34:11</sys_created_on>
+        <sys_id>b26ee89fdb720010eab89fd2ca9619a5</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>Rozwój</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_update_name>sp_instance_link_b26ee89fdb720010eab89fd2ca9619a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 10:24:50</sys_updated_on>
+        <title>Rozwój</title>
+        <type>sc_cat_item</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=b26ee89fdb720010eab89fd2ca9619a5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyApp">65135853db320010eab89fd2ca961923</application>
+        <file_path/>
+        <instance_id>66c8f6e4dbb7938c536ad5b0cf96197e</instance_id>
+        <instance_name>dev68993</instance_name>
+        <name>sp_instance_link_b26ee89fdb720010eab89fd2ca9619a5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;line-chart&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item display_value="Skoki rozwojowe"&gt;34e7501bdb320010eab89fd2ca961998&lt;/sc_cat_item&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;ae7c6c1fdb720010eab89fd2ca961992&lt;/sp_column&gt;&lt;sp_page display_value="new_record"&gt;dc20bedbdb7a0010eab89fd2ca96192a&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-02-11 09:34:11&lt;/sys_created_on&gt;&lt;sys_id&gt;b26ee89fdb720010eab89fd2ca9619a5&lt;/sys_id&gt;&lt;sys_mod_count&gt;23&lt;/sys_mod_count&gt;&lt;sys_name&gt;Rozwój&lt;/sys_name&gt;&lt;sys_package display_value="MyApp" source="x_417839_myapp"&gt;65135853db320010eab89fd2ca961923&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyApp"&gt;65135853db320010eab89fd2ca961923&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_b26ee89fdb720010eab89fd2ca9619a5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-03-03 10:24:50&lt;/sys_updated_on&gt;&lt;title&gt;Rozwój&lt;/title&gt;&lt;type&gt;sc_cat_item&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b26ee89fdb720010eab89fd2ca9619a5"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1838061282</payload_hash>
+        <record_name>Rozwój</record_name>
+        <reverted_from/>
+        <source>a9135853db320010eab89fd2ca961925</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 10:24:50</sys_created_on>
+        <sys_id>e96349cadb1b4410eab89fd2ca961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1709fed41320000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 10:24:50</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>656349ca941b4410903e6939aa10b885</update_guid>
+        <update_guid_history>656349ca941b4410903e6939aa10b885:1838061282,e56349ca551b44104a2b47b8f1071e81:464132291,a9634d4a851b4410c4a5d29e191f6873:-1300102905,3c6349ca091b4410bce95a8ff99cd614:464132291,349e9f03f3c3001033bccad1a193e548:-1300102905,3e886cddd5430010feabda453292b6cc:2026167818,246a48d19a03001041140eec00ebb7c3:458166947,821dbbb3bb7600104b4fd7e40b3b40b1:-1317064933,35ecfad75dba0010fa72e0137012cf17:1217846586,42ba7a5770ba00105dfaa1276b356528:391330908,d09abe570eba00103c302d89c2baa53e:-2022807764,823af6576fba00102457f50e32b24a05:391330908,80c2ba9f577a00106b1e61ef0be955f4:-1495865014,c4c13e5f337a00104694b1e39864522f:-1586288929,e461b65f4d7a0010cccecc8b1a46f6b3:391330908,b4703a1fc57a0010eaa75a4dabbfd968:1217846586,c8adea5b537a0010fe6eb13c16150101:967862681,b66d2ad7b67a00102dad33f031661b63:-2004448074,cd09ce1be5f6001083e7e673e4aa127e:-1495865014,e9613453acb200103ed07dbe80c4e0d1:360563917,39413853c2b200106a41c3eaa96c4f8e:-1090646343,bd6fe4df41720010531cb8bc835ff553:360563917,b2cea85f5c7200102e99d16f8e8c9391:1002813776,f66ee89f707200102338ee35992b12a6:-658851447</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Rozwój">8b6349cadb1b4410eab89fd2ca9619e3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 10:24:56</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>7313683893264f7eac732b0fd39f34e4</sys_id>
+        <sys_metadata>b26ee89fdb720010eab89fd2ca9619a5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rozwój</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_scope_delete display_value="">70f465d559934da4b6ea5eef65ede204</sys_scope_delete>
+        <sys_update_name>sp_instance_link_b26ee89fdb720010eab89fd2ca9619a5</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_b26ee89fdb720010eab89fd2ca9619a5">e96349cadb1b4410eab89fd2ca961985</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 10:24:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

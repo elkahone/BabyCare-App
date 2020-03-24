@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, spUtil, $window) {
+    /* widget controller */
+    var c = this;
+
+    c.addDiaper = function() {
+        c.diaperOptions = true;
+        c.breastFeedOptions = false;
+        c.bootleFeedOptions = false;
+    };
+
+    c.addBreastFeed = function() {
+        c.breastFeedOptions = true;
+        c.diaperOptions = false;
+        c.bootleFeedOptions = false;
+    };
+
+    c.addBootleFeed = function() {
+        c.bootleFeedOptions = true;
+        c.breastFeedOptions = false;
+        c.diaperOptions = false;
+    };
+		
+		$scope.newEvent = function(event) {
+			c.data.action = event.target.id;
+			c.server.update().then(function() {
+				c.data.action = undefined;
+				$window.location = '/julia';
+			});
+			spUtil.addInfoMessage($scope.data.recordInserted);
+		};
+	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>img {
+	width:100px;
+  high: 100px;
+}
+
+.img-container {
+	text-align: center;
+}
+
+.btn-group {
+	justify-content: center;
+}
+
+.dropdown, label {
+  font-size: 20px;
+	border-radius: 10px;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>events</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+	
+}]]></link>
+        <name>Events</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	data.recordInserted = gs.getMessage('Wpis dodany');
+	data.list = ["30", "40", "50", "60", "70", "80", "90", "100", "110", "120", "130", "140", "150"];
+	if(input) {
+			data.value = input.action;
+			var gr = new GlideRecord('x_417839_myapp_harmonogram');
+			gr.setValue('zdarzenie', data.value);
+			gr.insert();
+			if(data.value == 'butelka modyfikowane' || data.value == 'butelka laktator') {
+				gr.setValue('ml', input.volume1);
+				gr.update();
+			} else if (data.value == "laktator") {
+				gr.setValue('ml', input.volume2);
+				gr.update();
+			}
+	}
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-23 15:42:24</sys_created_on>
+        <sys_id>8db53f47db070010eab89fd2ca9619aa</sys_id>
+        <sys_mod_count>334</sys_mod_count>
+        <sys_name>Events</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_update_name>sp_widget_8db53f47db070010eab89fd2ca9619aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-22 09:43:58</sys_updated_on>
+        <template><![CDATA[<div class="form-group" ng-app="myApp" ng-controller="myController">
+  <div class="img-container">
+  <img src="changer.png" class="btn" ng-click="c.addDiaper()"/><br>
+  <div ng-if="c.diaperOptions" class="btn-group">
+      <button id="siku" type="submit" class="btn btn-info" data-ng-click="newEvent($event)">Siku</button>
+      <button id="kupa" type="button" class="btn btn-info" data-ng-click="newEvent($event)">Kupa</button>
+      <button id="siku i kupa" type="button" class="btn btn-info" data-ng-click="newEvent($event)">Siku i Kupa</button>
+  </div>
+</div>
+  <div class="img-container">
+  <img src="breast feed.png" class="btn" ng-click="c.addBreastFeed()"/>
+  <div ng-if="c.breastFeedOptions" class="btn-group">
+      <button id="karmienie lp"type="button" class="btn btn-info" data-ng-click="newEvent($event)">Lewa pierś</button>
+      <button id="karmienie pp" type="button" class="btn btn-info" data-ng-click="newEvent($event)">Prawa pierś</button>
+      <button id="karmienie 2p" type="button" class="btn btn-info" data-ng-click="newEvent($event)">Obydwie piersi</button>
+  </div>
+</div>
+<div class="img-container">
+  <img src="bootle.png" class="btn" ng-click="c.addBootleFeed()">
+  <div ng-if="c.bootleFeedOptions">
+  	<select class="dropdown" ng-model="c.data.volume1">
+      <option ng-repeat="item in c.data.list">{{item}}</option>
+    </select>
+  <label>ml</label>
+  </div>
+  <div ng-if="c.bootleFeedOptions" class="btn">
+    <button id="butelka laktator" type="button" class="btn btn-info" data-ng-click="newEvent($event)">Mleko z laktatora</button>
+    <button id="butelka modyfikowane" type="button" class="btn btn-info" data-ng-click="newEvent($event)">Mleko modyfikowane</button>
+  </div>
+</div>
+<div class="img-container">
+  <img id="laktator" src="lactator.png" class="btn" data-ng-click="newEvent($event)"/>
+  <div ng-if="!c.bootleFeedOptions">
+  	<select class="dropdown" ng-model="c.data.volume2">
+      <option ng-repeat="item in c.data.list">{{item}}</option>
+    </select>
+  <label>ml</label>
+  </div>
+</div>
+<div class="img-container">
+  <img id="kapiel" src="baby bath.png" class="btn" data-ng-click="newEvent($event)"/>
+</div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

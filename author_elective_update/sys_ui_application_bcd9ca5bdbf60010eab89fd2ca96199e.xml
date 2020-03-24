@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>MyJournal</name>
+        <order/>
+        <roles>x_417839_myapp.myjournal_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 16:13:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bcd9ca5bdbf60010eab89fd2ca96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyJournal</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_update_name>sys_ui_application_bcd9ca5bdbf60010eab89fd2ca96199e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 16:13:32</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyApp">65135853db320010eab89fd2ca961923</application>
+        <file_path/>
+        <instance_id>66c8f6e4dbb7938c536ad5b0cf96197e</instance_id>
+        <instance_name>dev68993</instance_name>
+        <name>sys_ui_application_bcd9ca5bdbf60010eab89fd2ca96199e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>MyJournal</name><order/><roles>x_417839_myapp.myjournal_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-11 16:13:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bcd9ca5bdbf60010eab89fd2ca96199e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MyJournal</sys_name><sys_overrides/><sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package><sys_policy/><sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope><sys_update_name>sys_ui_application_bcd9ca5bdbf60010eab89fd2ca96199e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-11 16:13:32</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>1937603373</payload_hash>
+        <record_name>MyJournal</record_name>
+        <reverted_from/>
+        <source>a9135853db320010eab89fd2ca961925</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 16:13:32</sys_created_on>
+        <sys_id>74d9ca5bdbf60010eab89fd2ca9619a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1703506f2b50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 16:13:32</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>bcd9ca5b85f6001086831c6f56146da0</update_guid>
+        <update_guid_history>bcd9ca5b85f6001086831c6f56146da0:1937603373</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 20:31:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>16d2ea4977ad445c82b01ef3c2624a90</sys_id>
+        <sys_metadata>bcd9ca5bdbf60010eab89fd2ca96199e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyJournal</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_scope_delete display_value="">70f465d559934da4b6ea5eef65ede204</sys_scope_delete>
+        <sys_update_name>sys_ui_application_bcd9ca5bdbf60010eab89fd2ca96199e</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_bcd9ca5bdbf60010eab89fd2ca96199e">74d9ca5bdbf60010eab89fd2ca9619a1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 20:31:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

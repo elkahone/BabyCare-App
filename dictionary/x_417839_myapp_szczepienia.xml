@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Szczepienia" max_length="40" name="x_417839_myapp_szczepienia" type="collection">
+        <element label="Data i godzina szczepienia" max_length="40" name="data_i_godzina_szczepienia" type="glide_date_time"/>
+        <element label="Kolejność" max_length="40" name="kolejnosc" type="integer"/>
+        <element label="Nazwa szczepionki" max_length="40" name="nazwa_szczepionki" type="string"/>
+        <element label="Rodzaj szczepionki" max_length="40" name="rodzaj_szczepionki" type="string"/>
+        <element label="Wiek" max_length="40" name="wiek" type="string"/>
+    </element>
+</database>

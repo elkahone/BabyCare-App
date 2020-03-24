@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>standard</category>
+        <client_script><![CDATA[function () {
+	var c = this;
+	
+	c.searchRecord = function() {
+		c.data.action = 'getRecords';
+		c.server.update().then(function() {
+			c.data.action = undefined;
+		})
+	}
+	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>input[name="q"] {
+color: Navy;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function(scope) {
+	var lazyLoader = $injector.get("lazyLoader");
+	lazyLoader.putTemplates(scope.data.typeaheadTemplates);
+}]]></link>
+        <name>My search</name>
+        <option_schema>[{"name":"title","section":"Presentation","label":"Title","type":"string"},{"name":"color","section":"Presentation","label":"Color","type":"string"},{"name":"glyph","section":"Presentation","label":"glyph","type":"string"},{"name":"size","section":"Presentation","label":"Size","type":"string"},{"hint":"Number of typeahead search results returned (default 15)","name":"limit","section":"Behavior","label":"Limit","type":"integer"},{"displayValue":"Search Source","hint":"If provided, limit the scope of the typeahead search to the given search sources","name":"contextual_search_sources","display_value_list":[],"section":"Behavior","label":"Contextual Search Sources","type":"glide_list","value":"sp_search_source","ed":{"reference":"sp_search_source"}}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	
+	var tables = ['x_417839_myapp_harmonogram', 'x_417839_myapp_illness', 'x_417839_myapp_myjournal'];
+	
+	if(input) {
+		if(input.action == 'getRecords') {
+			console.log(input.searchTerm);
+			
+		}
+	}
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 12:39:39</sys_created_on>
+        <sys_id>db0c6373db360010eab89fd2ca9619fc</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>My search</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_update_name>sp_widget_db0c6373db360010eab89fd2ca9619fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 08:44:47</sys_updated_on>
+        <template><![CDATA[<div class="input-group">
+    <input name="q" type="text" placeholder="Szukaj" ng-model="c.data.searchTerm"
+           class="form-control"
+           role="textbox">
+    <span class="input-group-btn">
+      <button name="search" type="submit" class="btn btn-default"
+              title="Szukaj" ng-click="c.searchRecord()">
+    	<i class="fa fa-search"></i>
+      </button>
+    </span>
+  <ul id="def" class="dropdown-menu" style="display:none;" >
+            <li><a id="HTML" onclick="mydef(this);" >HTML</a></li>
+            <li><a id="CSS" onclick="mydef(this);" >CSS</a></li>
+            <li><a id="JavaScript" onclick="mydef(this);" >JavaScript</a></li>
+      </ul>
+      <ul id="def1" class="dropdown-menu" style="display:none"></ul>
+  </div>]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyApp">65135853db320010eab89fd2ca961923</application>
+        <file_path/>
+        <instance_id>66c8f6e4dbb7938c536ad5b0cf96197e</instance_id>
+        <instance_name>dev68993</instance_name>
+        <name>sp_widget_db0c6373db360010eab89fd2ca9619fc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function () {
+	var c = this;
+	
+	c.searchRecord = function() {
+		c.data.action = 'getRecords';
+		c.server.update().then(function() {
+			c.data.action = undefined;
+		})
+	}
+	
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;input[name="q"] {
+color: Navy;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;true&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function(scope) {
+	var lazyLoader = $injector.get("lazyLoader");
+	lazyLoader.putTemplates(scope.data.typeaheadTemplates);
+}]]&gt;&lt;/link&gt;&lt;name&gt;My search&lt;/name&gt;&lt;option_schema&gt;[{"name":"title","section":"Presentation","label":"Title","type":"string"},{"name":"color","section":"Presentation","label":"Color","type":"string"},{"name":"glyph","section":"Presentation","label":"glyph","type":"string"},{"name":"size","section":"Presentation","label":"Size","type":"string"},{"hint":"Number of typeahead search results returned (default 15)","name":"limit","section":"Behavior","label":"Limit","type":"integer"},{"displayValue":"Search Source","hint":"If provided, limit the scope of the typeahead search to the given search sources","name":"contextual_search_sources","display_value_list":[],"section":"Behavior","label":"Contextual Search Sources","type":"glide_list","value":"sp_search_source","ed":{"reference":"sp_search_source"}}]&lt;/option_schema&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+	
+	var tables = ['x_417839_myapp_harmonogram', 'x_417839_myapp_illness', 'x_417839_myapp_myjournal'];
+	
+	if(input) {
+		if(input.action == 'getRecords') {
+			console.log(input.searchTerm);
+			
+		}
+	}
+	
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-02-13 12:39:39&lt;/sys_created_on&gt;&lt;sys_id&gt;db0c6373db360010eab89fd2ca9619fc&lt;/sys_id&gt;&lt;sys_mod_count&gt;32&lt;/sys_mod_count&gt;&lt;sys_name&gt;My search&lt;/sys_name&gt;&lt;sys_package display_value="MyApp" source="x_417839_myapp"&gt;65135853db320010eab89fd2ca961923&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyApp"&gt;65135853db320010eab89fd2ca961923&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_db0c6373db360010eab89fd2ca9619fc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-03-03 08:44:47&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="input-group"&gt;
+    &lt;input name="q" type="text" placeholder="Szukaj" ng-model="c.data.searchTerm"
+           class="form-control"
+           role="textbox"&gt;
+    &lt;span class="input-group-btn"&gt;
+      &lt;button name="search" type="submit" class="btn btn-default"
+              title="Szukaj" ng-click="c.searchRecord()"&gt;
+    	&lt;i class="fa fa-search"&gt;&lt;/i&gt;
+      &lt;/button&gt;
+    &lt;/span&gt;
+  &lt;ul id="def" class="dropdown-menu" style="display:none;" &gt;
+            &lt;li&gt;&lt;a id="HTML" onclick="mydef(this);" &gt;HTML&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a id="CSS" onclick="mydef(this);" &gt;CSS&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a id="JavaScript" onclick="mydef(this);" &gt;JavaScript&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;ul id="def1" class="dropdown-menu" style="display:none"&gt;&lt;/ul&gt;
+  &lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>767882342</payload_hash>
+        <record_name>My search</record_name>
+        <reverted_from/>
+        <source>a9135853db320010eab89fd2ca961925</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 08:44:47</sys_created_on>
+        <sys_id>8c8c6486dbd74410eab89fd2ca96195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1709f91a7520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 08:44:47</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>c48c6486a9d74410fb507d7d725e765d</update_guid>
+        <update_guid_history>c48c6486a9d74410fb507d7d725e765d:767882342,f36e7cb5bf9b0410c6ff4e13fcb31ab7:84974705,40c47c7dfc5b04106a0c4d758acccacd:359703705,e704707d3e5b0410b771af6b953e31e1:175737681,20c3347d565b04104b17b3c29d065ea9:-98083012,38b3fc3d295b04105c3ff97951dfd15a:1537357411,02837c3ddd5b04100941de7cb89f31de:-1557323872,8c733c3de15b04102fab639f9b747c0c:-1251536869,6353f07d205b04105259215e66c9c248:-317781507,dd43383db65b04105e6984e3efda3190:-1027296650,6d133c3df05b0410017385c7b383c833:-505647965,84037c3d4c5b0410c47254d3b14389c7:1219880381,00e2b0f9f15b04101f3e21f812a611a9:-665826661,edd238f92b5b04108a855bff86e296aa:-397971702,b5a2383d225b0410a649c2fe32393289:-553249145,5b52fcf9aa5b0410e82518229b8c6d7a:2130135829,7132b03d755b0410e5611c5a5298511e:1156641382,be2234f9c95b0410d34bcba6d5305b2a:-769219709,3d02fcf9605b041042f6b29c3028b368:-2085135015,c802bcf9bb5b041028406164bb8f4fd2:1129072051,f3d178f9c85b04101762b1de43e321e6:262959948,8da1f0f97c5b0410dc880c89716801c3:-2029855011,049134f9c95b041017979438e4dd30bc:-1069637191,1a4134f9ff5b04106ce38f6f523f659e:401441822,1131f0f9f85b0410dad0304a7294db59:1667277539,e621b0f9025b0410c7da3aba8aef669e:-200960180,7490b0f5e45b041003070a4034ed012c:1126579774,f68030b50c5b0410f5671789f4db97ca:-1259714048,5fffe7b71a360010d3004bda7b94a198:1126579774,32efe3b71f360010ee14ac6cea524a89:-2088032545,38bfe3b7073600100b4987ad167f2181:-1598916585,a42c23f3c136001090df7dd333d55d40:-2085611617,d30c6373d33600102828477df62795fe:-339597251</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My search">6b1e2cc6dbd74410eab89fd2ca9619cc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 08:51:52</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>3609b157fab14d95865668b54f32d381</sys_id>
+        <sys_metadata>db0c6373db360010eab89fd2ca9619fc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My search</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_scope_delete display_value="">70f465d559934da4b6ea5eef65ede204</sys_scope_delete>
+        <sys_update_name>sp_widget_db0c6373db360010eab89fd2ca9619fc</sys_update_name>
+        <sys_update_version display_value="sp_widget_db0c6373db360010eab89fd2ca9619fc">8c8c6486dbd74410eab89fd2ca96195d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 08:51:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

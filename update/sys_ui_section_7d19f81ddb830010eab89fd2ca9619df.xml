@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="7d19f81ddb830010eab89fd2ca9619df" sys_domain="global" table="x_417839_myapp_illness" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nazwa_choroby</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-17 17:57:33</sys_created_on>
+            <sys_id>be2b155ddb070010eab89fd2ca9619a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_417839_myapp_illness" sys_domain="global" view="Default view">7d19f81ddb830010eab89fd2ca9619df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-17 17:57:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-17 17:57:33</sys_created_on>
+            <sys_id>362b155ddb070010eab89fd2ca9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_417839_myapp_illness" sys_domain="global" view="Default view">7d19f81ddb830010eab89fd2ca9619df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-17 17:57:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>od</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-17 17:57:33</sys_created_on>
+            <sys_id>ba2b155ddb070010eab89fd2ca9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_417839_myapp_illness" sys_domain="global" view="Default view">7d19f81ddb830010eab89fd2ca9619df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-17 17:57:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>koniec</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-17 17:57:33</sys_created_on>
+            <sys_id>322b155ddb070010eab89fd2ca9619a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_417839_myapp_illness" sys_domain="global" view="Default view">7d19f81ddb830010eab89fd2ca9619df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-17 17:57:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_417839_myapp_illness</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-17 15:28:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7d19f81ddb830010eab89fd2ca9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_417839_myapp_illness</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+            <sys_update_name>sys_ui_section_7d19f81ddb830010eab89fd2ca9619df</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-17 15:28:40</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

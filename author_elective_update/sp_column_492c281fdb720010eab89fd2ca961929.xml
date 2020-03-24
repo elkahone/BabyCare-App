@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>29</order>
+        <size>1</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">7e39a85bdb720010eab89fd2ca9619d6</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 09:24:14</sys_created_on>
+        <sys_id>492c281fdb720010eab89fd2ca961929</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>29</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_update_name>sp_column_492c281fdb720010eab89fd2ca961929</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 09:24:45</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyApp">65135853db320010eab89fd2ca961923</application>
+        <file_path/>
+        <instance_id>66c8f6e4dbb7938c536ad5b0cf96197e</instance_id>
+        <instance_name>dev68993</instance_name>
+        <name>sp_column_492c281fdb720010eab89fd2ca961929</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>29</order><size>1</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">7e39a85bdb720010eab89fd2ca9619d6</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-11 09:24:14</sys_created_on><sys_id>492c281fdb720010eab89fd2ca961929</sys_id><sys_mod_count>1</sys_mod_count><sys_name>29</sys_name><sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package><sys_policy/><sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope><sys_update_name>sp_column_492c281fdb720010eab89fd2ca961929</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-11 09:24:45</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>1106581721</payload_hash>
+        <record_name>29</record_name>
+        <reverted_from/>
+        <source>a9135853db320010eab89fd2ca961925</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 09:24:45</sys_created_on>
+        <sys_id>7c4ce81fdb720010eab89fd2ca96194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1703390b2e60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 09:24:45</sys_updated_on>
+        <type>Column</type>
+        <update_guid>f44ce81fc67200103e71ae7889850c4a</update_guid>
+        <update_guid_history>f44ce81fc67200103e71ae7889850c4a:1106581721,892c281f33720010895d8d7e4bff912a:672287961</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="29">747cec1fdb720010eab89fd2ca961961</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 09:25:34</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>0e9b413b27154030823268c61664b431</sys_id>
+        <sys_metadata>492c281fdb720010eab89fd2ca961929</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>29</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_scope_delete display_value="">70f465d559934da4b6ea5eef65ede204</sys_scope_delete>
+        <sys_update_name>sp_column_492c281fdb720010eab89fd2ca961929</sys_update_name>
+        <sys_update_version display_value="sp_column_492c281fdb720010eab89fd2ca961929">7c4ce81fdb720010eab89fd2ca96194a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 09:25:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

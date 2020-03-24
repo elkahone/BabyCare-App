@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Details" max_length="40" name="x_417839_myapp_details" type="collection">
+        <element label="Data urodzenia" max_length="40" name="data_urodzenia" type="glide_date_time"/>
+        <element label="Waga (kg)" max_length="40" name="waga_kg" type="integer"/>
+        <element default="javascript:getAge().checkAge()" label="Wiek" max_length="40" name="wiek" type="string"/>
+        <element label="Wzrost (cm)" max_length="40" name="wzrost_cm" type="integer"/>
+    </element>
+</database>

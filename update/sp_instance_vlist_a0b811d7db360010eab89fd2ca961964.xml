@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>data</display_field>
+        <field_list>notatka</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>100</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">53786cdddb430010eab89fd2ca961901</sp_column>
+        <sp_page/>
+        <sp_widget display_value="My List">b568c9d7dbf20010eab89fd2ca961914</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 12:38:53</sys_created_on>
+        <sys_id>a0b811d7db360010eab89fd2ca961964</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Ostatnie wpisy</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_update_name>sp_instance_vlist_a0b811d7db360010eab89fd2ca961964</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-09 07:29:12</sys_updated_on>
+        <table>x_417839_myapp_myjournal</table>
+        <title>Ostatnie wpisy</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=a0b811d7db360010eab89fd2ca961964"/>
+</record_update>

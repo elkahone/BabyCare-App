@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="notatka" label="Notatka" language="en" table="x_417839_myapp_myjournal">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>notatka</element>
+            <help/>
+            <hint/>
+            <label>Notatka</label>
+            <language>en</language>
+            <name>x_417839_myapp_myjournal</name>
+            <plural>Notatkas</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 16:13:33</sys_created_on>
+            <sys_id>49d9ca5bdbf60010eab89fd2ca9619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Notatka</sys_name>
+            <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+            <sys_update_name>sys_documentation_x_417839_myapp_myjournal_notatka_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-11 16:13:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

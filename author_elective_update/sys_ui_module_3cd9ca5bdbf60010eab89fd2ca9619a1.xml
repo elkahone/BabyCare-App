@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="MyJournal">bcd9ca5bdbf60010eab89fd2ca96199e</application>
+        <filter/>
+        <name>MyJournals</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_417839_myapp.myjournal_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 16:13:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3cd9ca5bdbf60010eab89fd2ca9619a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyJournals</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_update_name>sys_ui_module_3cd9ca5bdbf60010eab89fd2ca9619a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 16:13:32</sys_updated_on>
+        <table>x_417839_myapp_myjournal</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyApp">65135853db320010eab89fd2ca961923</application>
+        <file_path/>
+        <instance_id>66c8f6e4dbb7938c536ad5b0cf96197e</instance_id>
+        <instance_name>dev68993</instance_name>
+        <name>sys_ui_module_3cd9ca5bdbf60010eab89fd2ca9619a1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="MyJournal">bcd9ca5bdbf60010eab89fd2ca96199e</application><filter/><name>MyJournals</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_417839_myapp.myjournal_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-11 16:13:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3cd9ca5bdbf60010eab89fd2ca9619a1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MyJournals</sys_name><sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package><sys_policy/><sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope><sys_update_name>sys_ui_module_3cd9ca5bdbf60010eab89fd2ca9619a1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-11 16:13:32</sys_updated_on><table>x_417839_myapp_myjournal</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-890581899</payload_hash>
+        <record_name>MyJournals</record_name>
+        <reverted_from/>
+        <source>a9135853db320010eab89fd2ca961925</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 16:13:32</sys_created_on>
+        <sys_id>f8d9ca5bdbf60010eab89fd2ca9619b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1703506f2ec0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 16:13:32</sys_updated_on>
+        <type>Module</type>
+        <update_guid>34d9ca5b98f60010559285727ed40bb0</update_guid>
+        <update_guid_history>34d9ca5b98f60010559285727ed40bb0:-890581899</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 20:30:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>2cd21514774a424580902ab622cd37c1</sys_id>
+        <sys_metadata>3cd9ca5bdbf60010eab89fd2ca9619a1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyJournals</sys_name>
+        <sys_package display_value="MyApp" source="x_417839_myapp">65135853db320010eab89fd2ca961923</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">65135853db320010eab89fd2ca961923</sys_scope>
+        <sys_scope_delete display_value="">70f465d559934da4b6ea5eef65ede204</sys_scope_delete>
+        <sys_update_name>sys_ui_module_3cd9ca5bdbf60010eab89fd2ca9619a1</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_3cd9ca5bdbf60010eab89fd2ca9619a1">f8d9ca5bdbf60010eab89fd2ca9619b0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 20:30:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
