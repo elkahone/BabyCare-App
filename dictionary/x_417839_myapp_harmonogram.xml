@@ -24,6 +24,8 @@
                 <element inactive_on_update="false" label="Karmienie Prawa Pierś" value="karmienie pp"/>
                 <element inactive_on_update="false" label="Kupa" value="kupa"/>
                 <element inactive_on_update="false" label="Laktaor" value="laktator"/>
+                <element inactive_on_update="false" label="Płacz" value="placz"/>
+                <element inactive_on_update="false" label="Sen" value="sen"/>
                 <element inactive_on_update="false" label="Siku" value="siku"/>
                 <element inactive_on_update="false" label="Siku i Kupa" value="siku i kupa"/>
             </choice>
